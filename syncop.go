@@ -26,7 +26,7 @@ func New() Engine {
 // and you can check the error from this function
 func (e *Engine) ListenForError() error {
 
-	go func(){
+	go func() {
 		e.wg.Wait()
 		close(e.errChan)
 	}()

@@ -1,5 +1,8 @@
 # Syncop
 
+[![Documentation](https://godoc.org/github.com/faruqisan/syncop?status.svg)](https://godoc.org/github.com/faruqisan/syncop)
+[![Go Report Card](https://goreportcard.com/badge/github.com/faruqisan/syncop)](https://goreportcard.com/report/github.com/faruqisan/syncop)
+
 Go library to handle error inside multiple go routine. Sometimes you need all go routine to run successfully without single failure, to make sure of that you need to handle error that happen inside the routines.
 
 ## Installation
